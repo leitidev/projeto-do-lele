@@ -18,12 +18,17 @@ namespace projeto_do_lele.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult CadastroVoluntario()
         {
             return View();
         }
 
         public IActionResult LoginDoVoluntario()
+        {
+            return View();
+        }
+
+        public IActionResult Coleta()
         {
             return View();
         }
