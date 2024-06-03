@@ -38,6 +38,11 @@ namespace projeto_do_lele.Controllers
             return View();
         }
 
+        public IActionResult EventosAdm()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
