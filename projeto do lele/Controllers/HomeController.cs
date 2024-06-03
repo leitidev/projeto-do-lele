@@ -28,6 +28,11 @@ namespace projeto_do_lele.Controllers
             return View();
         }
 
+        public IActionResult PaginaInicial()
+        {
+            return View();
+        }
+
         public IActionResult Coleta()
         {
             return View();
